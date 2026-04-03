@@ -30,6 +30,92 @@
         "blob/51e7bdc94e090c1e124270c5b99a3418c90a221e.nq.gz",
         "blob/0d29b413d3a30a3012cc627862195caea84ea5e1.nq.gz",
         "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz"
+      ],
+      "ast": [
+        "aggregate/ast/a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz",
+      "repolex": "aggregate/repolex/a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz",
+      "dep": "dep/a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.5",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "clientele",
+          "ecosystem": "CARGO",
+          "version": "0.2.5",
+          "githubOrg": "dryrust",
+          "githubRepo": "clientele.rs",
+          "githubCommit": "02a4021705fc7bd01f10f2ae858252234c6b1b30",
+          "githubTag": "0.2.5",
+          "githubUrl": "https://github.com/dryrust/clientele.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "indoc",
+          "ecosystem": "CARGO",
+          "version": "2.0",
+          "githubOrg": "dtolnay",
+          "githubRepo": "indoc",
+          "githubUrl": "https://github.com/dtolnay/indoc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cfg_aliases",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "katharostech",
+          "githubRepo": "cfg_aliases",
+          "githubUrl": "https://github.com/katharostech/cfg_aliases",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "shadow-rs",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "baoyachi",
+          "githubRepo": "shadow-rs",
+          "githubUrl": "https://github.com/baoyachi/shadow-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cc",
+          "ecosystem": "CARGO",
+          "version": "1.1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cc-rs",
+          "githubUrl": "https://github.com/rust-lang/cc-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rbs",
+          "ecosystem": "RUBYGEMS",
+          "version": "4.0.0.",
+          "githubOrg": "ruby",
+          "githubRepo": "rbs",
+          "githubUrl": "https://github.com/ruby/rbs.git",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/gem/ruby/3.2.0/gems/rbs-4.0.0.dev.4/core/file.rbs"
+        },
+        {
+          "packageName": "rake",
+          "ecosystem": "RUBYGEMS",
+          "version": "13.0.6",
+          "githubOrg": "ruby",
+          "githubRepo": "rake",
+          "githubCommit": "5c60da8644a9e4f655e819252e3b6ca77f42b7af",
+          "githubTag": "v13.0.6",
+          "githubUrl": "https://github.com/ruby/rake",
+          "source": "lsp",
+          "install_path": "/usr/lib/ruby/gems/3.2.0/gems/rake-13.0.6/lib/rake/dsl_definition.rb"
+        }
       ]
     }
   ],
