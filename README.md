@@ -36,6 +36,17 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 
 ```
 .
+├── aggregate
+│   ├── ast
+│   │   ├── a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5
+│   │   │   └── chunk-001.nq.gz
+│   │   └── a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz
+│   ├── lsp
+│   │   └── a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz
+│   └── repolex
+│       ├── a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5
+│       │   └── chunk-001.nq.gz
+│       └── a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz
 ├── blob
 │   ├── 00164dc03be3777ec7436c4d8e7ebbafe379220d.nq.gz
 │   ├── 0d29b413d3a30a3012cc627862195caea84ea5e1.nq.gz
@@ -62,6 +73,8 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz
 ├── filetree
 │   └── a3f53eb9a6e28a877a893d0f1d79bef20e2f0ec5.nq.gz
 ├── issue
@@ -71,7 +84,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-8 directories, 27 files
+15 directories, 33 files
 ```
 
 | Directory | What it contains |
@@ -91,4 +104,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [asimov-platform/asimov-account-cli](https://github.com/asimov-platform/asimov-account-cli)
 
 ---
-*Parsed on 2026-04-03 by [repolex](https://repolex.ai)*
+*Parsed on 2026-04-15 by [repolex](https://repolex.ai)*
